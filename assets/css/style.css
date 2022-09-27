@@ -1,0 +1,82 @@
+#main-content {
+    text-align: center;
+    align-content:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(38, 155, 165);
+  }
+
+  header {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  h1 {
+    font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  p {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .description {
+    display: flex;
+    flex: wrap;
+    margin: 0 auto;
+    max-width: 30%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  #title {
+    font-size: 36px;
+  }
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+  
+  #timer {
+    padding-right: 10px;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: rgb(42, 203, 122);
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .general-btn {
+    padding: 10px;
+  }
+  .option-btn {
+    background-color: rgb(42, 203, 122);
+  }
+  
+  .general-btn:hover {
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    max-width: 150px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .high-score-container {
+    grid-template-columns: 1fr;
+    display: grid;
+    grid-gap: 5px;
+    margin-top: 30px;
+  }
